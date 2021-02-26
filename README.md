@@ -17,11 +17,14 @@ SocketServer 파일 SocketServerDlg 133, 134, 135번째 줄.
 datasource name과 user, id를 교수님 db 기준으로 수정해주세요
 
 sqldump 파일인 installme 파일과 connector 프로그램을 같이
-제출하겠습니다. sql 파일 쓰시면 테스트값이 조금 넣어져 있는
+제출하겠습니다.
+sql 파일 쓰시면 테스트값이 조금 넣어져 있는
 버젼으로 diary 란 이름의 db가 생성될 겁니다.
-혹시몰라서 테이블 생성부분 코드 같이 넣어봅니다.
+
+혹시몰라 테이블 생성부분 코드 같이 넣어봅니다.
+
 create table svrinfo
-(
+(  
 id varchar(30),
 date date,
 title varchar(100),
