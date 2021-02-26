@@ -22,7 +22,6 @@ sql 파일 쓰시면 테스트값이 조금 넣어져 있는
 버젼으로 diary 란 이름의 db가 생성될 겁니다.
 
 혹시몰라 테이블 생성부분 코드 같이 넣어봅니다.
-
 create table svrinfo
 (  
 id varchar(30),
